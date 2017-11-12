@@ -1,9 +1,9 @@
 // Code your solution in this file.
-functionlowerCaseArray(array){
+function lowerCaseArray(array){
   return array.map(function(e){
     return e.toLowerCase()
   })
-  
+
 }
 
 function nameToAttributes(names){
