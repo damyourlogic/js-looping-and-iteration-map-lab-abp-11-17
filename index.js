@@ -11,6 +11,6 @@ function nameToAttributes(names){
 
     let fName = name.split("")[0]
     let lName - name.split("")[1]
-    return {fName, lastName: lName}
+    return {firstName: fName, lastName: lName}
   })
 }
